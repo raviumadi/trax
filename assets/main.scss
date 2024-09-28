@@ -1,0 +1,201 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+
+/* Control wrapping inside code and hightlight blocks */
+.highlight {
+    white-space: pre-wrap;
+}
+
+.blockquote {
+    white-space: pre-wrap;
+}
+
+.language-matlab{
+  white-space: pre-wrap;
+}
+
+/* Footer links */
+.centered-justified-links {
+  text-align: justify;
+  text-align-last: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 15px 0; /* Adjust the margin as needed to control the spacing */
+}
+
+.centered-justified-links a {
+  flex: 0 0 auto;
+  text-align: center;
+  width: calc(20% - 10px); /* Adjust the width as needed */
+  margin: 0 5px; /* Adjust the margin as needed to separate the links */
+}
+
+.post-navigation {
+    display: flex;
+    justify-content: space-between; /* This will put maximum space between the two items */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Audio container */
+.audio-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 12px;
+}
+
+.description, .audio-player {
+  flex: 1;
+  padding: 1rem;
+}
+
+.description {
+  border-right: 1px solid #ddd;
+  text-align: left;
+}
+
+.audio-caption {
+  text-align: center;
+}
+
+audio {
+  width: 100%;
+}
+
+.bottom-line {
+  margin-bottom: 1rem;
+}
+
+.audio-related-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;  /* Space between the image and the audio player/description */
+    max-width: 100%;   /* Ensures the image doesn't exceed container's width */
+}
+/* End of Audio container */
+
+/* Text for body or page descriotions on the top */
+.centered-bold {
+  text-align: center;
+  font-weight: bold;
+}
+
+.centered-normal {
+  text-align: center;
+}
+
+.thumbnail {
+    width: 100px;
+    height: auto;
+}
+
+/* pictures in resources page */
+.image-container {
+    text-align: left;
+    display: inline-block;
+}
+
+.picture-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Button */
+.button-container {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 128, 255,1);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Latest posts excerpt image styling */
+
+/* Adjust the width as needed */
+.latest-post-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-post-content {
+  width: 100%;
+}
+
+.latest-post-image {
+  max-width: 30%;
+  height: auto;
+  margin-left: 20px; /* Add spacing between content and image */
+}
+
+/* Ensure images fit within the square container */
+.square-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Image container */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 90%; /* Adjust size as needed */
+  padding: 15px;
+  border: 1px solid #ccc; /* Frame border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  // background-color: #fff; /* Background color of container */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Features grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 40px auto;
+  max-width: 800px; /* Adjust size as needed */
+  padding: 20px;
+}
+
+.feature-box {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9; /* Background color for the text box */
+  text-align: center;
+}
+
+.feature-box h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.feature-box p {
+  font-size: 14px;
+  color: #666;
+}

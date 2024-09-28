@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<div class="posts-list">
+  <!-- Loop through all posts and list them -->
+  {% for post in site.posts %}
+  <div class="post-preview">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt }}</p>
+    <p><a href="{{ post.url | relative_url }}">Read more...</a></p>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- Pagination Links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Previous</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+  {% endif %}
+</div>
