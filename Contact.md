@@ -23,12 +23,12 @@ We would also appreciate if you shared with us a little about your workout track
     <label for="message" style="display: block; margin-bottom: 5px;">Message:</label>
     <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 8px;"></textarea>
   </div>
-  
-  <!-- Next to thank you page-->
-  <input type="hidden" name="_next" value="https://trax.fitness/Thanks">
 
   <!-- Hidden reCAPTCHA token field -->
   <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+
+  <!-- Next to thank you page-->
+  <input type="hidden" name="_next" value="https://trax.fitness/Thanks">
 
   <button type="submit" style="padding: 10px 15px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Send</button>
 </form>

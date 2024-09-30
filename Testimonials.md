@@ -37,11 +37,13 @@ We would also appreciate if you shared with us a little about your workout track
     <input type="checkbox" id="publish_permission" name="publish_permission" required />
     <label for="publish_permission">I agree to have my testimonial published on the website.</label>
   </div>
-  <!-- Next to thank you page-->
-  <input type="hidden" name="_next" value="https://trax.fitness/Thanks">
+ 
   <!-- Hidden reCAPTCHA token field -->
   <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
 
+ <!-- Next to thank you page-->
+  <input type="hidden" name="_next" value="https://trax.fitness/Thanks">
+  
   <button type="submit" style="padding: 10px 15px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Submit</button>
 </form>
 

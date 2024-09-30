@@ -64,13 +64,13 @@ We'd love to learn more about how you currently track your workouts and any insi
     <label for="comments" style="display: block; margin-bottom: 5px;">Any comments or suggestions? We'd love to hear your thoughts!</label>
     <textarea id="comments" name="comments" rows="5" style="width: 100%; padding: 8px;"></textarea>
   </div>
-  
-  <!-- Next to thank you page-->
-  <input type="hidden" name="_next" value="https://trax.fitness/Thanks">
 
   <!-- Hidden reCAPTCHA token field -->
   <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
-
+  
+  <!-- Next to thank you page-->
+  <input type="hidden" name="_next" value="https://trax.fitness/Thanks">
+  
   <button type="submit" style="padding: 10px 15px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Submit Survey</button>
 </form>
 
