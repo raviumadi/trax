@@ -9,6 +9,65 @@ layout: home
   <img src="/images/logo.png" alt="Trax Fitness Logo">
 </div>
 
+<div class="feature-box">
+<div style="text-align: center; padding: 50px;">
+  <!-- <h1 style="font-size: 36px; margin-bottom: 20px;">Trax</h1> -->
+  <p style="font-size: 24px; margin-bottom: 40px; max-width: 800px; margin: auto;">
+    The AI-powered wearable that tracks every rep, every set — ensuring smarter workouts, stronger gains, and unstoppable progress.
+  </p>
+ <!-- Learn More Button -->
+<div style="text-align: center; margin: 20px;">
+  <a href="/Technology" style="display: inline-block; padding: 12px 24px; background-color: #4CAF50; color: white; text-decoration: none; font-size: 18px; border-radius: 8px; transition: background-color 0.3s ease;">
+    Learn More
+  </a>
+</div>
+</div>
+</div>
+
+
+<!-- Showcase -->
+<div class="gallery-container" style="position: relative; max-width: 600px; margin: auto; overflow: hidden;">
+  <!-- Arrow Left -->
+  <a class="prev" onclick="plusSlides(-1)" style="cursor: pointer; position: absolute; top: 50%; left: 0; padding: 16px; background-color: rgba(0, 0, 0, 0.5); color: white; text-decoration: none; font-size: 18px; transform: translateY(-50%);">❮</a>
+
+  <!-- Image Slides -->
+  <div class="slides" style="display: flex; transition: transform 0.5s ease-in-out;">
+    <img src="/images/model_top.png" alt="Photo 1" style="width: 100%; max-width: 600px;">
+    <img src="/images/model_back.png" alt="Photo 2" style="width: 100%; max-width: 600px;">
+    <img src="/images/model_side.png" alt="Photo 3" style="width: 100%; max-width: 600px;">
+    <img src="/images/model_front.png" alt="Photo 4" style="width: 100%; max-width: 600px;">
+  </div>
+
+  <!-- Arrow Right -->
+  <a class="next" onclick="plusSlides(1)" style="cursor: pointer; position: absolute; top: 50%; right: 0; padding: 16px; background-color: rgba(0, 0, 0, 0.5); color: white; text-decoration: none; font-size: 18px; transform: translateY(-50%);">❯</a>
+</div>
+
+<!-- JavaScript for Scrolling Functionality -->
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelector('.slides');
+  const totalSlides = slides.children.length;
+
+  function plusSlides(n) {
+    slideIndex += n;
+
+    // Wrap around if we go beyond the first or last slide
+    if (slideIndex >= totalSlides) {
+      slideIndex = 0;
+    } else if (slideIndex < 0) {
+      slideIndex = totalSlides - 1;
+    }
+
+    // Move slides to show the current image
+    slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+  }
+</script>
+
+<div class="feature-box">
+<div style="text-align: center; padding: 20px;">
+  <h1 style="font-size: 36px; margin-bottom: 20px;">Feature Highlights</h1>
+</div>
+</div>
 <!-- Features grid -->
 <div class="features-grid">
   <div class="feature-box">
@@ -29,4 +88,15 @@ layout: home
   </div>
 </div>
 
-## [Learn More](/Technology)
+
+
+
+
+
+
+<!-- Discover the Latest Button -->
+<div style="text-align: center; margin: 20px;">
+  <a href="/Blogs" style="display: inline-block; padding: 12px 24px; background-color: #4CAF50; color: white; text-decoration: none; font-size: 18px; border-radius: 8px; transition: background-color 0.3s ease;">
+    Discover the Latest
+  </a>
+</div>

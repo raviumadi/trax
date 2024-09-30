@@ -6,6 +6,8 @@ permalink: /Contact/
 
 If you have any questions, feedback, or just want to say hello, please reach out to us through the form below. We would love to hear from you!
 
+We would also appreciate if you shared with us a little about your workout tracking methods. [Take a Quick Survery](/Quick-Survey)
+
 <form id="contact-form" action="https://formsubmit.co/ravi@trax.fitness" method="POST" style="width: 100%; max-width: 600px; margin: auto;">
   <div style="margin-bottom: 10px;">
     <label for="name" style="display: block; margin-bottom: 5px;">Name:</label>
