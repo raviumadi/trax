@@ -38,7 +38,7 @@ We would also appreciate if you shared with us a little about your workout track
     <label for="publish_permission">I agree to have my testimonial published on the website.</label>
   </div>
   <!-- Next to thank you page-->
-  <input type="hidden" name="_next" value="/Thanks">
+  <input type="hidden" name="_next" value="https://trax.fitness/Thanks">
   <!-- Hidden reCAPTCHA token field -->
   <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
 
