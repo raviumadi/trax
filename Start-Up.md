@@ -14,6 +14,8 @@ The idea for the Trax Workout Tracker started forming as I spoke to fellow gym-g
 
 It became clear that a better solution was needed — something that could seamlessly track every workout without disrupting the session, and provide accurate data to keep users progressing. From that realization, the vision for Trax took shape: to create a smart, AI-powered wearable that eliminates the hassle of tracking, so you can fully focus on your lift, your sweat, and your journey toward your goals.
 
+As I delved deeper into developing technologies that could help us live healthier and more mindful lives, I realized the potential of wearable tech to make fitness tracking more intuitive and effective. The more engaged I became, the more ideas and possibilities emerged. This led me to start several more projects aimed at addressing various aspects of health and fitness. From improving posture to enhancing muscle engagement, these projects evolved into a suite of innovative solutions that now stand under the flag of Traxware. Each product is orientated to tackle a unique fitness challenge, and together, they embody a vision for smarter, more personalized fitness tracking.
+
 ## Meet the Founder
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
@@ -38,7 +40,7 @@ It became clear that a better solution was needed — something that could seaml
 
 </div>
 
-## Join Hands as a Co-Founder of Trax Workout Tracker
+## Join Hands as a Co-Founder of Traxware AI
 
 Are you passionate about fitness and technology? Do you have a vision for building something that can make a real difference in people’s lives? Trax Workout Tracker is on a mission to transform the way workouts are tracked, and we are looking for driven, talented individuals to join us as co-founders.
 

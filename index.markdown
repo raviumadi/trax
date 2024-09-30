@@ -9,6 +9,7 @@ layout: home
   <img src="/images/logo.png" alt="Trax Fitness Logo">
 </div>
 
+<!-- One line description -->
 <div class="feature-box">
 <div style="text-align: center; padding: 50px;">
   <!-- <h1 style="font-size: 36px; margin-bottom: 20px;">Trax</h1> -->
@@ -23,7 +24,6 @@ layout: home
 </div>
 </div>
 </div>
-
 
 <!-- Showcase -->
 <div class="gallery-container" style="position: relative; max-width: 600px; margin: auto; overflow: hidden;">
@@ -87,12 +87,6 @@ layout: home
     <p>Our AI engine analyzes your workout history and progress to provide tailored recommendations for improving your fitness. Based on your past performance and current routine, Trax suggests optimized workouts, recovery periods, and goal-based plans to keep you motivated and on track to reach your fitness targets efficiently.</p>
   </div>
 </div>
-
-
-
-
-
-
 
 <!-- Discover the Latest Button -->
 <div style="text-align: center; margin: 20px;">

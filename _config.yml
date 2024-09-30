@@ -37,8 +37,7 @@ header_pages:
   - Blogs.md
   - Start-Up.md
   - Technology.md
-  - Testimonials.md
-  - Contact.md
+  - Solutions.md
   - About.md
 
 paginate: 5 # Number of posts per page
