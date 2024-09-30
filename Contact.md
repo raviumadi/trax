@@ -24,6 +24,9 @@ We would also appreciate if you shared with us a little about your workout track
     <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 8px;"></textarea>
   </div>
   
+  <!-- Next to thank you page-->
+  <input type="hidden" name="_next" value="/Thanks">
+  
   <!-- Hidden reCAPTCHA token field -->
   <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
 

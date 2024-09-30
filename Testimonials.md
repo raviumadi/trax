@@ -8,6 +8,8 @@ permalink: /Testimonials/
 
 We'd love to hear about your impression of the technoogy are building! Please share your insights with us!
 
+We would also appreciate if you shared with us a little about your workout tracking methods. [Take a Quick Survery](/Quick-Survey)
+
 <form id="testimonial-form" action="https://formsubmit.co/ravi@trax.fitness" method="POST" style="width: 100%; max-width: 600px; margin: auto;">
   
   <div style="margin-bottom: 10px;">
@@ -35,7 +37,8 @@ We'd love to hear about your impression of the technoogy are building! Please sh
     <input type="checkbox" id="publish_permission" name="publish_permission" required />
     <label for="publish_permission">I agree to have my testimonial published on the website.</label>
   </div>
-  
+  <!-- Next to thank you page-->
+  <input type="hidden" name="_next" value="/Thanks">
   <!-- Hidden reCAPTCHA token field -->
   <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
 
