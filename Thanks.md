@@ -18,11 +18,3 @@ permalink: /Thanks/
     Back to Home
   </a>
   </div>
-
-
-<style>
-  /* Button Hover Effect */
-  a:hover {
-    background-color: #45a049;
-  }
-</style>
